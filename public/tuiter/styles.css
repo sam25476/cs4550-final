@@ -1,0 +1,33 @@
+.wd-bg-color-black {
+    background-color: black
+}
+.wd-bg-color-darkgrey {
+    background-color: #212327;
+}
+.wd-fg-color-white {
+    color: white;
+}
+.wd-border-grey {
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+}
+.wd-float-done {
+    clear: both;
+}
+.wd-float-left {
+    float: left;
+}
+.wd-border-solid {
+    border-style: solid;
+}
+.wd-rounded-corners-all-around {
+    border-radius: 10px;
+}
+.wd-left-offset {
+    margin-left: 16px;
+}
+.wd-white-title {
+    color: white;
+    font-size: 15px;
+}

@@ -1,0 +1,33 @@
+[{ "_id": 123, "topic": "Space", "userName": "SpaceX",
+  "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
+  "time": "2h",   "image": "spacex.jpg","liked": true,
+  "replies": 123,
+  "retuits": 432,
+  "likes": 2345,
+  "handle": "@spacex",
+  "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+},
+  { "_id": 234, "topic": "Space",   "userName": "NASA",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "time": "2h",   "image": "nasa.webp", "liked": true,
+    "replies": 456,
+    "retuits": 3465,
+    "likes": 12434,
+    "handle": "@nasa",
+    "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet consequat consectetur. Aliquam fringilla ligula velit, quis euismod diam tristique porttitor. Nulla facilisi. Ut sit amet leo id mauris ultricies tincidunt. Etiam pellentesque diam et dui laoreet, imperdiet pharetra sem eleifend. Pellentesque eu elit in nulla sodales sodales. Praesent facilisis, enim sit amet bibendum elementum, dui mi pellentesque augue, id malesuada mi mi at justo. Donec tristique fringilla lectus, a rhoncus nunc cursus non. Maecenas quis mattis ipsum, in maximus ligula. In egestas ultrices molestie. Duis ante turpis, scelerisque ac leo id, congue ornare nisi. Sed in tellus in massa ullamcorper dapibus sit amet ut metus. Etiam vel lectus a est condimentum hendrerit."
+  },
+  {
+    "_id": 345,
+    "topic": "Energy",
+    "userName": "Tesla",
+    "title": "Tesla FSD finally makes driving obsolete. After years of delay, Tesla Full Self Driving can drive you to work while you work, play, or sleep",
+    "time": "4d",
+    "image": "tesla.jpg",
+    "liked": false,
+    "replies": 234,
+    "retuits": 435,
+    "likes": 4763,
+    "handle": "@tesla",
+    "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet consequat consectetur. Aliquam fringilla ligula velit, quis euismod diam tristique porttitor. Nulla facilisi. Ut sit amet leo id mauris ultricies tincidunt. Etiam pellentesque diam et dui laoreet, imperdiet pharetra sem eleifend. Pellentesque eu elit in nulla sodales sodales. Praesent facilisis, enim sit amet bibendum elementum, dui mi pellentesque augue, id malesuada mi mi at justo. Donec tristique fringilla lectus, a rhoncus nunc cursus non. Maecenas quis mattis ipsum, in maximus ligula. In egestas ultrices molestie. Duis ante turpis, scelerisque ac leo id, congue ornare nisi. Sed in tellus in massa ullamcorper dapibus sit amet ut metus. Etiam vel lectus a est condimentum hendrerit."
+  }
+]
