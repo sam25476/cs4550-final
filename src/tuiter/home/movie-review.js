@@ -11,22 +11,20 @@ const MovieReview = () => {
         const newReview = {
             title: movieTitle,
             review: movieReview,
-            stars: stars
+            stars: stars,
+            userName: "sam_reviews03"
         }
         dispatch(createReviewThunk(newReview));
     }
     return (
-        <div className="row">
-            <div className="col-auto">
-                <img src="/images/nasa.webp" width={60}/>
-            </div>
-            <div className="col-10">
+        <div className="row border-1">
+            <div className="col-12">
        <textarea value={movieTitle} placeholder="Whatcha Watching?"
-                 className="form-control border-0"
+                 className="form-control border-1"
                  onChange={(event) => setMovieTitle(event.target.value)}>
        </textarea>
                 <textarea value={movieReview} placeholder="Thoughts?"
-                          className="form-control border-0"
+                          className="form-control border-1"
                           onChange={(event) => setMovieReview(event.target.value)}>
        </textarea>
                 <div>

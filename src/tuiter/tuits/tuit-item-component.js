@@ -4,7 +4,7 @@ import "./index.css"
 import {useDispatch} from "react-redux";
 import {deleteReviewThunk} from "../../services/tuits-thunks";
 
-const TuitItem = (
+const ReviewItem = (
     {
         tuit = {
             "_id": 234,
@@ -19,38 +19,29 @@ const TuitItem = (
     }
 ) => {
     const dispatch = useDispatch();
-    const deleteTuitHandler = (id) => {
+    const deleteReviewHandler = (id) => {
         dispatch(deleteReviewThunk(id));
     }
+
     return(
         <li className="list-group-item">
             <div className="row">
-                <div className="col-1">
-                    <img width={35} height={35} className="float-end rounded-circle" src={`/images/${tuit.image}`}/>
-                </div>
-                <div className="col-11">
+                <div className="col-12">
                     <div>
                         <span className="fw-bold"> {tuit.userName} </span>
-                        <span> {tuit.handle}
-                        <i className="bi bi-patch-check-fill wd-verified"></i>
-                            <span> - </span> {tuit.time}
-                        </span>
                         <i className="bi bi-x-lg float-end"
-                           onClick={() => deleteTuitHandler(tuit._id)}></i>
+                           onClick={() => deleteReviewHandler(tuit._id)}></i>
+                        <span>
+                        {tuit.title} - <span> </span>
+                            {tuit.stars} <span className="bi bi-star-fill text-warning"></span>
+                    </span>
                     </div>
                     <br></br>
                     <div>{tuit.review}</div>
-                    <div>{tuit.stars}</div>
-                    <div>{tuit.title}</div>
-                </div>
-            </div>
-            <div className="row">
-                <div className={"col-1"}></div>
-                <div className={"col-11"}>
-                    <TuitStats key={tuit._id} tuit={tuit}/>
+
                 </div>
             </div>
         </li>
     );
 };
-export default TuitItem;
+export default ReviewItem;
